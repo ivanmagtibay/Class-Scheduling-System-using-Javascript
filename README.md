@@ -51,3 +51,5 @@ and on for the extensions in VSCode that I use...
     
     
 for you to test / run your code, type in your terminal "npm start"
+
+PS : node_modules are missing in the repository, in order to have it is to make a temporary electronjs project first then add the files in the repository in the folder you wish to save it to.
