@@ -1,5 +1,8 @@
 # Class-Scheduling-System-using-Javascript
 
+***This is an ongoing project***
+
+
 In order to use the file using electron, you got to install electronJS and Node.js first...
 
 for nodejs = nodejs.org/en/
