@@ -12,19 +12,19 @@ and you're done
 and on for the extensions in VSCode that I use...
 - go to the extensions tab in VSCode
 - Add the ff (*Optional)
-    Auto Rename Tag*
-    Bracket Pair Colorizer*
-    Docker
-    ES7 React/Redux/GraphQL/React-Native snippets
-    JavaScript (ES6) code snippets
-    npm
-    PHP Intelephense
-    PHP IntelliSense
-    Prettier - Code formatter*
-    SQLTools
-    Visual Studio IntelliCode
-    vscode-database
-    vscode-icons*
+    (Auto Rename Tag*)
+    (Bracket Pair Colorizer*)
+    (Docker)
+    (ES7 React/Redux/GraphQL/React-Native snippets)
+    (JavaScript (ES6) code snippets)
+    (npm)
+    (PHP Intelephense)
+    (PHP IntelliSense)
+    (Prettier - Code formatter*)
+    (SQLTools)
+    (Visual Studio IntelliCode)
+    (vscode-database) 
+    (vscode-icons*)
     
 
 for you to test / run your code, type in your terminal "npm start"
