@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='./app/css/style.css'>
+    <title>Class Scheduling System</title>
+</head>
+<body>
+    <div class="genpic">
+        <img src='./app/css/icons/LogoTransparent.png'>
+    </div>
+    <form action="/action_page.php" target="_blank">
+    <div class="radio">
+        <h3>Please choose the Semester :</h3>
+        <input type="radio" id="First Semester" name="semester" value="First Semester">
+        <label for="First Semester">First Semester</label><br>
+        <input type="radio" id="Second Semester" name="semester" value="Second Semester">
+        <label for="Second Semester">Second Semester</label><br>
+        <input type="radio" id="Summer" name="semester" value="Summer">
+        <label for="Summer">Summer</label>
+        <br>  
+    </div>
+    <br>
+    <div class="sections">
+        <h3>Please indicate the number of sections per course:</h3>
+        <label><b>BS Architecture</b></label><br><br>
+        <label for="archi1">1st Year:</label>
+        <input type="number" id="archi1" name="archi1">
+        <label for="archi2">2nd Year:</label>
+        <input type="number" id="archi2" name="archi2">
+        <label for="archi3">3rd Year:</label>
+        <input type="number" id="archi3" name="archi3">
+        <label for="archi4">4th Year:</label>
+        <input type="number" id="archi4" name="archi4">
+        <label for="archi5">5th Year:</label>
+        <input type="number" id="archi5" name="archi5"><br><br>
+        <!-- archi -->
+
+        <label><b>BS Chemical Engineering</b></label><br><br>
+        <label for="chem1">1st Year:</label>
+        <input type="number" id="chem1" name="chem1">
+        <label for="chem2">2nd Year:</label>
+        <input type="number" id="chem2" name="chem2">
+        <label for="chem3">3rd Year:</label>
+        <input type="number" id="chem3" name="chem3">
+        <label for="chem4">4th Year:</label>
+        <input type="number" id="chem4" name="chem4">
+        <label for="chem5">5th Year:</label>
+        <input type="number" id="chem5" name="chem5"><br><br>
+        <!-- chem -->
+        
+        <label><b>BS Civil Engineering</b></label><br><br>
+        <label for="civil1">1st Year:</label>
+        <input type="number" id="civil1" name="civil1">
+        <label for="civil2">2nd Year:</label>
+        <input type="number" id="civil2" name="civil2">
+        <label for="civil3">3rd Year:</label>
+        <input type="number" id="civil3" name="civil3">
+        <label for="civil4">4th Year:</label>
+        <input type="number" id="civil4" name="civil4">
+        <label for="civil5">5th Year:</label>
+        <input type="number" id="civil5" name="civil5"><br><br>
+        <!-- civil -->
+        
+        <label><b>BS Computer Engineering</b></label><br><br>
+        <label for="comp1">1st Year:</label>
+        <input type="number" id="comp1" name="comp1">
+        <label for="comp2">2nd Year:</label>
+        <input type="number" id="comp2" name="comp2">
+        <label for="comp3">3rd Year:</label>
+        <input type="number" id="comp3" name="comp3">
+        <label for="comp4">4th Year:</label>
+        <input type="number" id="comp4" name="comp4">
+        <label for="comp5">5th Year:</label>
+        <input type="number" id="comp5" name="comp5"><br><br>
+        <!-- comp -->
+
+        <label><b>BS Electrical Engineering</b></label><br><br>
+        <label for="elec1">1st Year:</label>
+        <input type="number" id="elec1" name="elec1">
+        <label for="elec2">2nd Year:</label>
+        <input type="number" id="elec2" name="elec2">
+        <label for="elec3">3rd Year:</label>
+        <input type="number" id="elec3" name="elec3">
+        <label for="elec4">4th Year:</label>
+        <input type="number" id="elec4" name="elec4">
+        <label for="elec5">5th Year:</label>
+        <input type="number" id="elec5" name="elec5"><br><br>
+        <!-- elec -->
+
+        <label><b>BS Electronics Engineering</b></label><br><br>
+        <label for="ece1">1st Year:</label>
+        <input type="number" id="ece1" name="ece1">
+        <label for="ece2">2nd Year:</label>
+        <input type="number" id="ece2" name="ece2">
+        <label for="ece3">3rd Year:</label>
+        <input type="number" id="ece3" name="ece3">
+        <label for="ece4">4th Year:</label>
+        <input type="number" id="ece4" name="ece4">
+        <label for="ece5">5th Year:</label>
+        <input type="number" id="ece5" name="ece5"><br><br>
+        <!-- ece -->
+
+        <label><b>BS Fine Arts</b></label><br><br>
+        <label for="finearts1">1st Year:</label>
+        <input type="number" id="finearts1" name="finearts1">
+        <label for="finearts2">2nd Year:</label>
+        <input type="number" id="finearts2" name="finearts2">
+        <label for="finearts3">3rd Year:</label>
+        <input type="number" id="finearts3" name="finearts3">
+        <label for="finearts4">4th Year:</label>
+        <input type="number" id="finearts4" name="finearts4"><br><br>
+        <!-- finearts -->
+
+        <label><b>BS Food Engineering</b></label><br><br>
+        <label for="food1">1st Year:</label>
+        <input type="number" id="food1" name="food1">
+        <label for="food2">2nd Year:</label>
+        <input type="number" id="food2" name="food2">
+        <label for="food3">3rd Year:</label>
+        <input type="number" id="food3" name="food3">
+        <label for="food4">4th Year:</label>
+        <input type="number" id="food4" name="food4">
+        <label for="food5">5th Year:</label>
+        <input type="number" id="food5" name="food5"><br><br>
+        <!-- food -->
+
+        <label><b>BS Industrial Engineering</b></label><br><br>
+        <label for="ind1">1st Year:</label>
+        <input type="number" id="ind1" name="ind1">
+        <label for="ind2">2nd Year:</label>
+        <input type="number" id="ind2" name="ind2">
+        <label for="ind3">3rd Year:</label>
+        <input type="number" id="ind3" name="ind3">
+        <label for="ind4">4th Year:</label>
+        <input type="number" id="ind4" name="ind4">
+        <label for="ind5">5th Year:</label>
+        <input type="number" id="ind5" name="ind5"><br><br>
+        <!-- ind -->
+
+        <label><b>BS Instrumentation and Control Engineering</b></label><br><br>
+        <label for="ice1">1st Year:</label>
+        <input type="number" id="ice1" name="ice1">
+        <label for="ice2">2nd Year:</label>
+        <input type="number" id="ice2" name="ice2">
+        <label for="ice3">3rd Year:</label>
+        <input type="number" id="ice3" name="ice3">
+        <label for="ice4">4th Year:</label>
+        <input type="number" id="ice4" name="ice4">
+        <label for="ice5">5th Year:</label>
+        <input type="number" id="ice5" name="ice5"><br><br>
+        <!-- ice -->
+
+        <label><b>BS Interior Design</b></label><br><br>
+        <label for="id1">1st Year:</label>
+        <input type="number" id="id1" name="id1">
+        <label for="id2">2nd Year:</label>
+        <input type="number" id="id2" name="id2">
+        <label for="id3">3rd Year:</label>
+        <input type="number" id="id3" name="id3">
+        <label for="id4">4th Year:</label>
+        <input type="number" id="id4" name="id4"><br><br>
+        <!-- id -->
+
+        <label><b>BS Mechanical Engineering</b></label><br><br>
+        <label for="mech1">1st Year:</label>
+        <input type="number" mech="mech1" name="mech1">
+        <label for="mech2">2nd Year:</label>
+        <input type="number" mech="mech2" name="mech2">
+        <label for="mech3">3rd Year:</label>
+        <input type="number" mech="mech3" name="mech3">
+        <label for="mech4">4th Year:</label>
+        <input type="number" mech="mech4" name="mech4">
+        <label for="mech5">5th Year:</label>
+        <input type="number" mech="mech5" name="mech5"><br><br>
+        <!-- mech -->
+
+        <label><b>BS Mechatronics Engineering</b></label><br><br>
+        <label for="mexe1">1st Year:</label>
+        <input type="number" mexe="mexe1" name="mexe1">
+        <label for="mexe2">2nd Year:</label>
+        <input type="number" mexe="mexe2" name="mexe2">
+        <label for="mexe3">3rd Year:</label>
+        <input type="number" mexe="mexe3" name="mexe3">
+        <label for="mexe4">4th Year:</label>
+        <input type="number" mexe="mexe4" name="mexe4">
+        <label for="mexe5">5th Year:</label>
+        <input type="number" mexe="mexe5" name="mexe5"><br><br>
+        <!-- mexe -->
+
+        <label><b>BS Petroleum Engineering</b></label><br><br>
+        <label for="pet1">1st Year:</label>
+        <input type="number" pet="pet1" name="pet1">
+        <label for="pet2">2nd Year:</label>
+        <input type="number" pet="pet2" name="pet2">
+        <label for="pet3">3rd Year:</label>
+        <input type="number" pet="pet3" name="pet3">
+        <label for="pet4">4th Year:</label>
+        <input type="number" pet="pet4" name="pet4">
+        <label for="pet5">5th Year:</label>
+        <input type="number" pet="pet5" name="pet5"><br><br>
+        <!-- pet -->
+
+        <label><b>BS Sanitary Engineering</b></label><br><br>
+        <label for="san1">1st Year:</label>
+        <input type="number" san="san1" name="san1">
+        <label for="san2">2nd Year:</label>
+        <input type="number" san="san2" name="san2">
+        <label for="san3">3rd Year:</label>
+        <input type="number" san="san3" name="san3">
+        <label for="san4">4th Year:</label>
+        <input type="number" san="san4" name="san4">
+        <label for="san5">5th Year:</label>
+        <input type="number" san="san5" name="san5"><br><br>
+        <!-- san -->
+    </div>  
+    <br>
+    <input type="submit" value="Submit"> 
+</form>
+<button id="Back", class="button button2">Back</button>
+<script>
+    var back = document.getElementById('Back');
+    back.addEventListener("click", backFunc)
+    function backFunc() 
+    {
+        window.location = ("index.html") 
+    }
+</script>
+</body>
+</html>
