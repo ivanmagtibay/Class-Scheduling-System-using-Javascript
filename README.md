@@ -22,6 +22,7 @@ and on for the extensions in VSCode that I use...
 - go to the extensions tab in VSCode
 
 - Add the ff (Optional*)
+
     (Auto Rename Tag*)
     
     (Bracket Pair Colorizer*)
